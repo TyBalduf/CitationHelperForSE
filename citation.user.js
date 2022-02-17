@@ -31,7 +31,7 @@
 // @require modalhandler.js
 
 // @version     0.6.0
-// @updateURL   https://github.com/GaurangTandon/CitationHelperForSE/blob/master/citation.user.js
+// @updateURL   https://https://github.com/TyBalduf/CitationHelperForSE/blob/master/citation.user.js
 
 // ==/UserScript==
 
