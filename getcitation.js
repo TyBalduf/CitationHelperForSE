@@ -100,10 +100,10 @@ chse.citeDOI = function (doi, callback, metadata) {
         }
 
         output += citeAuthors(metadata.author);
-        output += `${citeTitle(metadata.title[0])} `;
+        output += `[${citeTitle(metadata.title[0])}](https://doi.org/${doi}) `;
         output += getTitleYearIssuePagesForCitation(metadata);
 
-        output += `. [DOI: ${doi}](https://doi.org/${doi}).`;
+        output += `. DOI: ${doi}.`;
     } catch (error) {
         console.log("citing problem", error);
         output = chse.ERROR_MSG;
