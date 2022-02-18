@@ -167,7 +167,7 @@ GM_addStyle(GM_getResourceText("modalCSS"));
 
         if (!position) {
             value = value.replace(/\n*$/, "");
-            value += `\n\n#### References:\n\n1. ${citation}`;
+            value += `\n\n **References**:\n\n1. ${citation}`;
             textarea.value = value;
         } else {
             let refCountAlreadyExists = value.match(new RegExp(`${refCountToInsert}\\..+(\\n|$)`)),
